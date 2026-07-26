@@ -17,7 +17,7 @@
     "safe-fetch-guard": "https://github.com/anatolyben/safe-fetch-guard/archive/3af9ca4de3cfeb700e33f79dee5d4532b0f6450a.tar.gz"
   },
   "devDependencies": {
-    "vite": "^6.4.3",
+    "vite": "^8.1.5",
     "vitest": "^3.2.6"
   },
   "keywords": [
