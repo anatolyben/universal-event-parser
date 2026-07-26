@@ -1,0 +1,45 @@
+{
+  "name": "universal-event-parser",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Open-source Node.js framework for parsing and normalizing event data from platforms like Partiful, Luma, Facebook, and generic JSON-LD.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "safe-fetch-guard": "https://github.com/anatolyben/safe-fetch-guard/archive/3af9ca4de3cfeb700e33f79dee5d4532b0f6450a.tar.gz"
+  },
+  "devDependencies": {
+    "vite": "^6.4.3",
+    "vitest": "^3.2.6"
+  },
+  "keywords": [
+    "event",
+    "scraper",
+    "parser",
+    "luma",
+    "partiful",
+    "facebook",
+    "normalization"
+  ],
+  "author": "Anatoly Ben",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anatolyben/universal-event-parser.git"
+  },
+  "homepage": "https://github.com/anatolyben/universal-event-parser#readme",
+  "bugs": {
+    "url": "https://github.com/anatolyben/universal-event-parser/issues"
+  }
+}
